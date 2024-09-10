@@ -10,7 +10,7 @@ import { MenuIcon } from 'lucide-react';
 
 export default function Navbar() {
 
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen] = useState(true)
 
   return (
 
