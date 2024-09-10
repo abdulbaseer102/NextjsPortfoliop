@@ -3,8 +3,11 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import HeEro from '../Imae/hero.jpeg'
 const Hero = () => {
+
+
+    
   return (
-    <section className="relative bg-gradient-to-r from-blue-500 to-purple-600 h-screen flex items-center justify-center text-center">
+    <section className="relative bg-gray-700 h-screen flex items-center justify-center text-center">
       <div className="container mx-auto">
       <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -15,9 +18,9 @@ const Hero = () => {
           <Image
           src={HeEro}
           alt="Hero"
-          height={100}
-          className='w-[20%] ml-[39.50%]'
-          width={400}
+          height={200}
+          className='w-64 m-auto rounded-full'
+          width={200}
           
           />
         </motion.div>
