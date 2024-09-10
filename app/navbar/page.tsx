@@ -1,5 +1,4 @@
 import React from 'react';
-import { ModeToggle } from '../toggel/page';
 
 export default function Navbar() {
   return (
