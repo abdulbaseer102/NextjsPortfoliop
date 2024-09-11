@@ -1,10 +1,7 @@
 
-interface MySkill {
-    skill:string
-    level:string
-}
 
-const SkillCard = ({ skill, level }:MySkill) => {
+import { MySkill } from "../route";
+export default function  SkillCard ({ skill, level }:MySkill) {
     return (
       <div className="p-6 bg-white dark:bg-gray-700 shadow-lg rounded-lg">
         <h3 className="text-2xl font-semibold mb-2">{skill}</h3>
@@ -19,4 +16,3 @@ const SkillCard = ({ skill, level }:MySkill) => {
       </div>
     );
   };
-export default SkillCard  
