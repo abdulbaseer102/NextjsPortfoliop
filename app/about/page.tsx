@@ -1,20 +1,9 @@
 // pages/about.js
 import Image from 'next/image';
-import { SkillCard } from '../skill/page'
 import hero from '../Imae/hero.jpeg'
+import SkillsPage from '../skills/page';
 const About = () => {
-    const skills = [
-        { skill: "JavaScript", level: 90 },
-        { skill: "React.js", level: 85 },
-        { skill: "Next.js", level: 80 },
-        { skill: "Tailwind CSS", level: 95 },
-        { skill: "HTML/CSS", level: 90 },
-        { skill: "UI/UX Design", level: 90 },
-        { skill: "Node.js", level: 75 },
-        { skill: "TypeScript", level: 70 },
-        { skill: "Git & GitHub", level: 85 },
-        { skill: "Figma", level: 80 },
-    ];
+  
 
     return (
         <div className="bg-slate-400 text-gray-800 dark:text-white">
@@ -45,19 +34,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
-
-            <section id="skills" className="py-16 bg-gray-100 dark:bg-gray-800">
-                <div className="container mx-auto px-4">
-                    <h2 className="text-4xl font-bold text-center mb-12">My Skills</h2>
-
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {skills.map((item, index) => (
-                            <SkillCard key={index} skill={item.skill} level={item.level} />
-                        ))}
-                    </div>
-                </div>
-            </section>
-
+            <SkillsPage />
         </div>
     );
 };
