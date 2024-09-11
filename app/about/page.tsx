@@ -14,10 +14,10 @@ const About = () => {
                 About Me
               </h1>
               <p className="text-lg md:text-xl leading-relaxed mb-6">
-                Hi! I'm Alex Thompson, a passionate web developer and UI/UX designer with over 5 years of experience in creating visually appealing and user-centric websites. I love working with modern tools like JavaScript, React, and Tailwind CSS to craft amazing digital experiences.
+                Hi! Im Alex Thompson, a passionate web developer and UI/UX designer with over 5 years of experience in creating visually appealing and user-centric websites. I love working with modern tools like JavaScript, React, and Tailwind CSS to craft amazing digital experiences.
               </p>
               <p className="text-lg md:text-xl leading-relaxed">
-                My goal is to build responsive, scalable, and accessible websites that enhance user engagement and deliver exceptional results. Let's collaborate and bring your next project to life!
+                My goal is to build responsive, scalable, and accessible websites that enhance user engagement and deliver exceptional results. Lets collaborate and bring your next project to life!
               </p>
             </div>
 
