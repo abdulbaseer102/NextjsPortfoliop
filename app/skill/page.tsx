@@ -1,5 +1,6 @@
- 
- interface SkillCardProps {
+// SkillCard.tsx
+
+interface SkillCardProps {
     skill: string;
     level: number;
   }
@@ -19,4 +20,4 @@
       </div>
     );
   };
- 
+  
