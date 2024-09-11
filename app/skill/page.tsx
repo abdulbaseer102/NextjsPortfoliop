@@ -1,7 +1,7 @@
 
 
-import { MySkill } from "../route";
-export default function  SkillCard ({ skill, level }:MySkill) {
+import { MysKILL } from "../../route";
+export default function  SkillCard ({ skill, level }:MysKILL) {
     return (
       <div className="p-6 bg-white dark:bg-gray-700 shadow-lg rounded-lg">
         <h3 className="text-2xl font-semibold mb-2">{skill}</h3>
