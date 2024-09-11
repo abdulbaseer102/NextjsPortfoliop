@@ -1,6 +1,6 @@
 // pages/about.js
 import Image from 'next/image';
-import SkillCard from '../skill/page';
+import {SkillCard} from '../skill/page';
 import hero from '../Imae/hero.jpeg'
 const About = () => {
   return (
