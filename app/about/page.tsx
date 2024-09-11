@@ -20,7 +20,6 @@ const About = () => {
         <div className="bg-slate-400 text-gray-800 dark:text-white">
             <section className="py-16 px-4 md:px-16">
                 <div className="container mx-auto">
-                    {/* Introduction Section */}
                     <div className="flex flex-col md:flex-row items-center">
                         <div className="md:w-1/2">
                             <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -34,7 +33,6 @@ const About = () => {
                             </p>
                         </div>
 
-                        {/* Photo Section */}
                         <div className="md:w-1/2 mt-10 md:mt-0 md:ml-12">
                             <Image
                                 src={hero} // Make sure to add your photo in the public directory
@@ -48,8 +46,6 @@ const About = () => {
                 </div>
             </section>
 
-            {/* Skills Section */}
-            // Inside the Skills Section
             <section id="skills" className="py-16 bg-gray-100 dark:bg-gray-800">
                 <div className="container mx-auto px-4">
                     <h2 className="text-4xl font-bold text-center mb-12">My Skills</h2>

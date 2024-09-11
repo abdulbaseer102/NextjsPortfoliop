@@ -1,4 +1,4 @@
- export const SkillCard = ({ skill, level }:any) => {
+ export const SkillCard = ({ skill, level }:string) => {
     return (
       <div className="p-6 bg-white dark:bg-gray-700 shadow-lg rounded-lg">
         <h3 className="text-2xl font-semibold mb-2">{skill}</h3>
