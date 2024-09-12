@@ -1,6 +1,7 @@
 // pages/about.js
 import Image from 'next/image';
 import hero from '../Imae/hero.jpeg'
+import SkillsPage from '../skill/page';
 const About = () => {
 
     return (
@@ -31,6 +32,9 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section>
+                <SkillsPage />
             </section>
 
            
