@@ -14,7 +14,7 @@ const About = () => {
                                 About Me
                             </h1>
                             <p className="text-lg md:text-xl leading-relaxed mb-6">
-                                Hi! Im Alex Thompson, a passionate web developer and UI/UX designer with over 5 years of experience in creating visually appealing and user-centric websites. I love working with modern tools like JavaScript, React, and Tailwind CSS to craft amazing digital experiences.
+                                Hi! Im AbdulBaseer, a passionate web developer and UI/UX designer with over 5 years of experience in creating visually appealing and user-centric websites. I love working with modern tools like JavaScript, React, and Tailwind CSS to craft amazing digital experiences.
                             </p>
                             <p className="text-lg md:text-xl leading-relaxed">
                                 My goal is to build responsive, scalable, and accessible websites that enhance user engagement and deliver exceptional results. Lets collaborate and bring your next project to life!
@@ -24,7 +24,7 @@ const About = () => {
                         <div className="md:w-1/2 mt-10 md:mt-0 md:ml-12">
                             <Image
                                 src={hero} // Make sure to add your photo in the public directory
-                                alt="Alex Thompson"
+                                alt="AB"
                                 width={400}
                                 height={400}
                                 className="rounded-lg shadow-lg"

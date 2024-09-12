@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './navbar/page'
 import Hero from './home/page'
 import About from './about/page'
+import ProjectsPage from './project/page'
 const MainPage = () => {
   return (
     <div>
@@ -21,6 +22,11 @@ const MainPage = () => {
       <div>
 
         <About />
+
+      </div>
+      <div>
+
+        <ProjectsPage />
 
       </div>
 
