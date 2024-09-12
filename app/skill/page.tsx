@@ -5,7 +5,7 @@ import React from "react";
 const SkillCard1 = () => {
   return (
     <div className="p-6 bg-white dark:bg-gray-700 shadow-lg rounded-lg">
-      <h3 className="text-2xl font-semibold mb-2">JavaScript</h3>
+      <h3 className="text-2xl font-semibold mb-2 text-gray-800">JavaScript</h3>
       <div className="relative pt-1">
         <div className="overflow-hidden h-3 mb-4 text-xs flex rounded bg-gray-300 dark:bg-gray-600">
           <div
@@ -21,7 +21,7 @@ const SkillCard1 = () => {
 const SkillCard2 = () => {
   return (
     <div className="p-6 bg-white dark:bg-gray-700 shadow-lg rounded-lg">
-      <h3 className="text-2xl font-semibold mb-2">React.js</h3>
+      <h3 className="text-2xl font-semibold mb-2 text-gray-800">React.js</h3>
       <div className="relative pt-1">
         <div className="overflow-hidden h-3 mb-4 text-xs flex rounded bg-gray-300 dark:bg-gray-600">
           <div
@@ -37,7 +37,7 @@ const SkillCard2 = () => {
 const SkillCard3 = () => {
   return (
     <div className="p-6 bg-white dark:bg-gray-700 shadow-lg rounded-lg">
-      <h3 className="text-2xl font-semibold mb-2">Tailwind CSS</h3>
+      <h3 className="text-2xl font-semibold mb-2 text-gray-800">Tailwind CSS</h3>
       <div className="relative pt-1">
         <div className="overflow-hidden h-3 mb-4 text-xs flex rounded bg-gray-300 dark:bg-gray-600">
           <div
@@ -53,13 +53,13 @@ const SkillCard3 = () => {
 const SkillCard4 = () => {
     return (
       <div className="p-6 bg-white dark:bg-gray-700 shadow-lg rounded-lg">
-        <h3 className="text-2xl font-semibold mb-2">Next.Js
+        <h3 className="text-2xl font-semibold mb-2 text-gray-800">Next.Js
         </h3>
         <div className="relative pt-1">
           <div className="overflow-hidden h-3 mb-4 text-xs flex rounded bg-gray-300 dark:bg-gray-600">
             <div
               style={{ width: `70%` }}
-              className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-600 dark:bg-blue-400"
+              className="shadow-none flex flex-col text-center whitespace-nowrap text-gray-900 justify-center bg-blue-600 dark:bg-blue-400"
             ></div>
           </div>
         </div>
@@ -70,7 +70,7 @@ const SkillCard4 = () => {
   const SkillCard5 = () => {
     return (
       <div className="p-6 bg-white dark:bg-gray-700 shadow-lg rounded-lg">
-        <h3 className="text-2xl font-semibold mb-2">Type script</h3>
+        <h3 className="text-2xl font-semibold mb-2 text-gray-800">Type script</h3>
         <div className="relative pt-1">
           <div className="overflow-hidden h-3 mb-4 text-xs flex rounded bg-gray-300 dark:bg-gray-600">
             <div

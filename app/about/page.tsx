@@ -5,7 +5,7 @@ import SkillsPage from '../skill/page';
 const About = () => {
 
     return (
-        <div className="bg-slate-400 text-gray-800 dark:text-white">
+        <div className="bg-slate-700 text-gray-100 dark:text-white">
             <section className="py-16 px-4 md:px-16">
                 <div className="container mx-auto">
                     <div className="flex flex-col md:flex-row items-center">

@@ -3,9 +3,11 @@ import Navbar from './navbar/page'
 import Hero from './home/page'
 import About from './about/page'
 import ProjectsPage from './project/page'
+import ContactPage from './contact/page'
+import Footer from './footer/page'
 const MainPage = () => {
   return (
-    <div>
+    <div className='bg-slate-700 h-screen'>
 
 
       <div>
@@ -27,6 +29,16 @@ const MainPage = () => {
       <div>
 
         <ProjectsPage />
+
+      </div>
+      <div>
+
+        <ContactPage />
+
+      </div>
+      <div>
+
+        <Footer />
 
       </div>
 
